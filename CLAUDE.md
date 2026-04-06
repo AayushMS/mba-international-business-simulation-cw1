@@ -50,11 +50,52 @@ Mobilé Inc. is a US smartphone manufacturer competing in USA, Europe, and Asia.
 - Trade-offs addressed honestly (including $90M cash floor constraint)
 - Comprehensive, error-free Harvard citations
 
+## Agent Team: `mobile-inc-strategy`
+
+### Team Roles & Skill Assignments
+
+| Agent | Type | Role | Skills to Use |
+|-------|------|------|---------------|
+| **team-lead** | planner | Orchestrates work, manages dependencies, final coherence review | `marking-criteria-reviewer` — for final quality gate before completion |
+| **researcher** | researcher | Deep case study analysis, builds/validates knowledge base, applies strategic frameworks | `mobile-inc-researcher` — on EVERY research output to ensure case-specificity; `strategic-framework-analyst` — when building or validating any framework analysis (VRIO, PESTLE, Porter's, Value Chain, Strategic Group, CSF, SWOT) |
+| **frontend-dev** | designer | Builds React+Vite website with interactive components | No skills required — follows component specs in design doc |
+| **content-writer** | deep-executor | Writes strategic analysis content for Tasks 1-4, executive summary | `mobile-inc-researcher` — on EVERY piece of content to ensure case-specificity and three-wave coherence; `strategic-framework-analyst` — when writing Task 2 (Internal & External Analysis) and Task 3 (SWOT Synthesis) content |
+| **quality-reviewer** | code-reviewer | Reviews all output against marking criteria, flags gaps | `marking-criteria-reviewer` — this IS the quality reviewer's primary skill, use it on every piece of content reviewed |
+
+### When Each Skill Triggers
+
+#### `mobile-inc-researcher` (path: `skills/mobile-inc-researcher/SKILL.md`)
+**Used by:** researcher, content-writer
+**When to invoke:**
+- Before writing ANY analytical content — ensures case-specificity
+- When extracting or citing case study data — ensures accuracy
+- When building framework analyses — enforces three-wave lens
+- When writing Task 1-4 content — flags generic statements
+- When connecting findings across tasks — ensures cross-task consistency
+
+#### `strategic-framework-analyst` (path: `skills/strategic-framework-analyst/SKILL.md`)
+**Used by:** researcher, content-writer
+**When to invoke:**
+- When building or validating VRIO, Value Chain, PESTLE, Porter's Five Forces, Strategic Group, or CSF analysis
+- When writing SWOT synthesis — ensures every point traces to framework evidence
+- When checking internal-external connections between frameworks
+- When justifying framework selection ("Why this framework for Mobilé Inc.?")
+- During Task 2 and Task 3 work specifically
+
+#### `marking-criteria-reviewer` (path: `skills/marking-criteria-reviewer/SKILL.md`)
+**Used by:** quality-reviewer, team-lead
+**When to invoke:**
+- After EACH task's content is written — quality gate before moving to next task
+- During Phase 3 quality review — comprehensive check of all content
+- During Phase 4 final integration — team-lead's coherence check
+- Before declaring any task "complete" — ensures distinction-level quality
+- When checking cross-task consistency (Task 3 vs Task 2, Task 4 vs Tasks 1-3)
+
 ## Project Structure
 - `knowledge-base/` — All case data and framework analyses in markdown
 - `knowledge-base/frameworks/` — Individual framework analyses (VRIO, PESTLE, etc.)
 - `website/` — React+Vite interactive website
-- `skills/` — Custom Claude Code skills
+- `skills/` — Custom Claude Code skills (3 skills, see above for assignments)
 - `docs/superpowers/specs/` — Design specifications
 
 ## Key Data Points (Quick Reference)
