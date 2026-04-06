@@ -15,24 +15,33 @@ import QuickOverview from './pages/QuickOverview'
 function Layout() {
   const location = useLocation()
   const isHome = location.pathname === '/'
-  const [sidebarOpen, setSidebarOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
 
-  // Close sidebar on route change
+  // Close menu on route change
   useEffect(() => {
-    setSidebarOpen(false)
+    setMenuOpen(false)
   }, [location.pathname])
+
+  // Close menu on resize back to desktop
+  useEffect(() => {
+    const onResize = () => {
+      if (window.innerWidth > 1024) setMenuOpen(false)
+    }
+    window.addEventListener('resize', onResize)
+    return () => window.removeEventListener('resize', onResize)
+  }, [])
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: '#F7F7F5' }}>
-      <Navbar onMenuToggle={() => setSidebarOpen(prev => !prev)} menuOpen={sidebarOpen} />
+      <Navbar onMenuToggle={() => setMenuOpen(prev => !prev)} menuOpen={menuOpen} />
       <div style={{ display: 'flex', flex: 1, maxWidth: '1600px', width: '100%', margin: '0 auto' }}>
         {!isHome && (
           <>
             <div
-              className={`sidebar-overlay${sidebarOpen ? ' sidebar-open' : ''}`}
-              onClick={() => setSidebarOpen(false)}
+              className={`sidebar-overlay${menuOpen ? ' sidebar-open' : ''}`}
+              onClick={() => setMenuOpen(false)}
             />
-            <Sidebar className={sidebarOpen ? 'sidebar-open' : ''} />
+            <Sidebar className={menuOpen ? 'sidebar-open' : ''} />
           </>
         )}
         <main style={{ flex: 1, minWidth: 0, overflowX: 'hidden' }}>

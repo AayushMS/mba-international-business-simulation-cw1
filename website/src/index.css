@@ -84,12 +84,16 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
-/* Mobile menu button - hidden by default */
+/* Mobile menu button + dropdown - hidden on desktop */
 .mobile-menu-btn {
   display: none !important;
 }
 
-/* Tablet: < 1024px — hide sidebar, full-width content */
+.mobile-nav-dropdown {
+  display: none !important;
+}
+
+/* Tablet: < 1024px — sidebar becomes overlay, hamburger appears */
 @media (max-width: 1024px) {
   .sidebar {
     position: fixed;
@@ -127,27 +131,36 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Tablet: < 900px — reduce padding */
 @media (max-width: 900px) {
-  /* All page content areas */
   main > div {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
 
-  /* Navbar */
   header nav {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
 }
 
-/* Mobile: < 768px — stacked layouts, smaller fonts */
+/* Mobile: < 768px — hide desktop nav, show mobile dropdown */
 @media (max-width: 768px) {
-  /* Navbar */
+  /* Hide desktop nav links */
   .nav-links {
     display: none !important;
   }
 
-  .nav-brand {
+  /* Show mobile dropdown (it animates via max-height) */
+  .mobile-nav-dropdown {
+    display: flex !important;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .mobile-nav-dropdown.mobile-nav-open {
+    max-height: 500px;
+  }
+
+  .nav-brand span {
     font-size: 15px !important;
   }
 
@@ -155,14 +168,14 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 10px !important;
   }
 
-  /* All page content areas */
+  /* Page padding */
   main > div {
     padding-left: 16px !important;
     padding-right: 16px !important;
     padding-top: 24px !important;
   }
 
-  /* Pages */
+  /* Home page */
   .home-page h1 {
     font-size: 28px !important;
   }
@@ -179,6 +192,7 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr !important;
   }
 
+  /* Task 2 */
   .task2-page h1 {
     font-size: 26px !important;
   }
@@ -192,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
     display: none !important;
   }
 
-  /* Framework component padding */
+  /* Framework components */
   .framework-grid-2 > div,
   .framework-grid-3 > div {
     padding: 10px !important;
@@ -208,6 +222,23 @@ h1, h2, h3, h4, h5, h6 {
   .footer-meta {
     flex-direction: column !important;
     gap: 4px !important;
+  }
+}
+
+/* Small mobile: < 480px */
+@media (max-width: 480px) {
+  .home-metrics-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  header nav {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
+  }
+
+  main > div {
+    padding-left: 12px !important;
+    padding-right: 12px !important;
   }
 }
 

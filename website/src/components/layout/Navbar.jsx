@@ -3,6 +3,17 @@ import { NavLink, useLocation } from 'react-router-dom'
 const navItems = [
   { path: '/', label: 'Home' },
   { path: '/overview', label: 'Quick Overview' },
+  { path: '/task1', label: 'Task 1: Strategy Process' },
+  { path: '/task2', label: 'Task 2: Analysis' },
+  { path: '/task3', label: 'Task 3: SWOT' },
+  { path: '/task4', label: 'Task 4: Recommendation' },
+  { path: '/team', label: 'Team' },
+  { path: '/references', label: 'References' },
+]
+
+const navItemsDesktop = [
+  { path: '/', label: 'Home' },
+  { path: '/overview', label: 'Quick Overview' },
   { path: '/task1', label: 'Task 1' },
   { path: '/task2', label: 'Task 2' },
   { path: '/task3', label: 'Task 3' },
@@ -74,7 +85,7 @@ export default function Navbar({ onMenuToggle, menuOpen }) {
         </NavLink>
 
         <div className="nav-links" style={{ display: 'flex', gap: '0', flex: 1, overflowX: 'auto' }}>
-          {navItems.map(item => {
+          {navItemsDesktop.map(item => {
             const isActive = item.path === '/'
               ? location.pathname === '/'
               : location.pathname.startsWith(item.path)
@@ -102,7 +113,7 @@ export default function Navbar({ onMenuToggle, menuOpen }) {
         </div>
 
         <div className="nav-cash-floor" style={{
-          marginLeft: '8px',
+          marginLeft: 'auto',
           flexShrink: 0,
           fontFamily: 'IBM Plex Mono, monospace',
           fontSize: '11px',
@@ -112,6 +123,46 @@ export default function Navbar({ onMenuToggle, menuOpen }) {
           <span style={{ color: '#C0392B', fontWeight: 500 }}>$90M</span>
         </div>
       </nav>
+
+      {/* Mobile dropdown menu */}
+      <div
+        className={`mobile-nav-dropdown${menuOpen ? ' mobile-nav-open' : ''}`}
+        style={{
+          display: 'none',
+          flexDirection: 'column',
+          background: '#FFFFFF',
+          borderBottom: '1px solid #E5E5E0',
+          overflow: 'hidden',
+          maxHeight: 0,
+          transition: 'max-height 0.25s ease',
+        }}
+      >
+        {navItems.map(item => {
+          const isActive = item.path === '/'
+            ? location.pathname === '/'
+            : location.pathname.startsWith(item.path)
+          return (
+            <NavLink
+              key={item.path}
+              to={item.path}
+              onClick={onMenuToggle}
+              style={{
+                textDecoration: 'none',
+                padding: '12px 24px',
+                fontFamily: 'Outfit, system-ui, sans-serif',
+                fontSize: '15px',
+                fontWeight: isActive ? 500 : 400,
+                color: isActive ? '#1A1A1A' : '#555555',
+                background: isActive ? '#F7F7F5' : 'transparent',
+                borderLeft: isActive ? '3px solid #1A1A1A' : '3px solid transparent',
+                transition: 'background 0.15s',
+              }}
+            >
+              {item.label}
+            </NavLink>
+          )
+        })}
+      </div>
     </header>
   )
 }
