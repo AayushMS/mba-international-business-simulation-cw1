@@ -82,7 +82,7 @@ export default function QuickOverview() {
 
       {/* The Company */}
       <Section emoji="📱" title="The Company">
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', marginBottom: '20px' }}>
+        <div className="home-metrics-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '24px', marginBottom: '20px' }}>
           <Stat value="$4.8B" label="Revenue per year" />
           <Stat value="25%" label="Market share" />
           <Stat value="3" label="Markets (US, EU, Asia)" />
@@ -207,7 +207,7 @@ export default function QuickOverview() {
           </p>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
+        <div className="home-waves-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px' }}>
           <div style={{
             background: '#F0F4FF', border: '1px solid #D0DCEF',
             borderRadius: '8px', padding: '20px',

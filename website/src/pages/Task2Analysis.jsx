@@ -5,11 +5,18 @@ import PESTLEGrid from '../components/frameworks/PESTLEGrid'
 import PortersFiveForces from '../components/frameworks/PortersFiveForces'
 import StrategicGroupMap from '../components/frameworks/StrategicGroupMap'
 import CSFTable from '../components/frameworks/CSFTable'
+import BowmansStrategyClock from '../components/frameworks/BowmansStrategyClock'
+import AnsoffMatrix from '../components/frameworks/AnsoffMatrix'
+import BCGMatrix from '../components/frameworks/BCGMatrix'
+import LevelsOfStrategy from '../components/frameworks/LevelsOfStrategy'
+import IntegrationStrategies from '../components/frameworks/IntegrationStrategies'
+import BartlettGhoshal from '../components/frameworks/BartlettGhoshal'
+import EntryModeSpectrum from '../components/frameworks/EntryModeSpectrum'
 
 function SectionHeader({ id, number, title, wave, waveColor, sub }) {
   return (
     <div id={id} style={{ marginBottom: '18px' }}>
-      <div style={{ display: 'flex', alignItems: 'baseline', gap: '12px', marginBottom: '4px' }}>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: '12px', marginBottom: '4px', flexWrap: 'wrap' }}>
         <span style={{
           fontFamily: 'IBM Plex Mono, monospace',
           fontSize: '11px',
@@ -51,11 +58,18 @@ function SectionHeader({ id, number, title, wave, waveColor, sub }) {
   )
 }
 
+const tabs = [
+  { id: 'internal', label: 'Internal Analysis', sub: 'VRIO + Value Chain' },
+  { id: 'external', label: 'External Analysis', sub: "PESTLE + Porter's + Strategic Group + CSF" },
+  { id: 'strategic', label: 'Strategic Positioning', sub: "Bowman's + Ansoff + BCG + Levels + Integration" },
+  { id: 'international', label: 'International Strategy', sub: 'Bartlett & Ghoshal + Entry Modes' },
+]
+
 export default function Task2Analysis() {
   const [activeTab, setActiveTab] = useState('internal')
 
   return (
-    <div style={{ padding: '40px 40px', width: '100%', animation: 'fadeInUp 0.3s ease' }}>
+    <div className="task2-page" style={{ padding: '40px 40px', width: '100%', animation: 'fadeInUp 0.3s ease' }}>
       {/* Header */}
       <div style={{ marginBottom: '36px' }}>
         <div style={{
@@ -83,21 +97,19 @@ export default function Task2Analysis() {
           lineHeight: 1.7,
           maxWidth: '640px',
         }}>
-          Highest-weight section (30 marks). Internal analysis via VRIO/RBV and Value Chain reveals competitive capabilities and weaknesses. External analysis via PESTLE, Porter's Five Forces, Strategic Group Map, and CSF Gap Analysis uncovers opportunities and threats across all three technology waves.
+          Highest-weight section (30 marks). Internal analysis via VRIO/RBV and Value Chain. External analysis via PESTLE, Porter's Five Forces, Strategic Group, and CSF. Strategic positioning via Bowman's, Ansoff, BCG, and Levels of Strategy. International strategy via Bartlett & Ghoshal IR framework and Entry Mode analysis.
         </p>
       </div>
 
       {/* Tab switcher */}
-      <div style={{
+      <div className="task2-tabs" style={{
         display: 'flex',
         gap: '0',
         marginBottom: '32px',
         borderBottom: '1px solid #E5E5E0',
+        overflowX: 'auto',
       }}>
-        {[
-          { id: 'internal', label: 'Internal Analysis', sub: 'VRIO + Value Chain' },
-          { id: 'external', label: 'External Analysis', sub: "PESTLE + Porter's + Strategic Group + CSF" },
-        ].map(tab => (
+        {tabs.map(tab => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
@@ -109,6 +121,7 @@ export default function Task2Analysis() {
               cursor: 'pointer',
               textAlign: 'left',
               marginBottom: '-1px',
+              flexShrink: 0,
             }}
           >
             <div style={{
@@ -116,14 +129,16 @@ export default function Task2Analysis() {
               fontSize: '13px',
               fontWeight: activeTab === tab.id ? 500 : 400,
               color: activeTab === tab.id ? '#1A1A1A' : '#999999',
+              whiteSpace: 'nowrap',
             }}>
               {tab.label}
             </div>
-            <div style={{
+            <div className="tab-sub" style={{
               fontFamily: 'Outfit, system-ui, sans-serif',
               fontSize: '11px',
               color: '#999999',
               marginTop: '2px',
+              whiteSpace: 'nowrap',
             }}>
               {tab.sub}
             </div>
@@ -131,7 +146,7 @@ export default function Task2Analysis() {
         ))}
       </div>
 
-      {activeTab === 'internal' ? (
+      {activeTab === 'internal' && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
           <section>
             <SectionHeader
@@ -157,7 +172,9 @@ export default function Task2Analysis() {
             <ValueChainDiagram />
           </section>
         </div>
-      ) : (
+      )}
+
+      {activeTab === 'external' && (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
           <section>
             <SectionHeader
@@ -205,6 +222,98 @@ export default function Task2Analysis() {
               sub="Identifies where Mobilé must excel to win; measures current performance against industry benchmark"
             />
             <CSFTable />
+          </section>
+        </div>
+      )}
+
+      {activeTab === 'strategic' && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+          <section>
+            <SectionHeader
+              id="bowmans"
+              number="2.7"
+              title="Bowman's Strategy Clock"
+              wave="Competitive Positioning"
+              waveColor="#2B8A5E"
+              sub="Eight competitive positions on Price vs Perceived Benefit — Mobilé's migration path across three waves"
+            />
+            <BowmansStrategyClock />
+          </section>
+
+          <section>
+            <SectionHeader
+              id="ansoff"
+              number="2.8"
+              title="Ansoff Growth Matrix"
+              wave="Growth Direction"
+              waveColor="#F59E0B"
+              sub="Existing/New Products × Existing/New Markets — classifying risk profile of each wave strategy"
+            />
+            <AnsoffMatrix />
+          </section>
+
+          <section>
+            <SectionHeader
+              id="bcg"
+              number="2.9"
+              title="BCG Growth-Share Matrix"
+              wave="Portfolio Analysis"
+              waveColor="#7B5EA7"
+              sub="Market growth rate vs relative market share — portfolio balance and cash flow dynamics"
+            />
+            <BCGMatrix />
+          </section>
+
+          <section>
+            <SectionHeader
+              id="levels"
+              number="2.10"
+              title="Levels of Strategy"
+              wave="Strategic Cascade"
+              waveColor="#7B5EA7"
+              sub="Corporate → Business → Functional → Operational — how three-wave decisions cascade through the organisation"
+            />
+            <LevelsOfStrategy />
+          </section>
+
+          <section>
+            <SectionHeader
+              id="integration"
+              number="2.11"
+              title="Integration Strategies"
+              wave="Value Chain Boundaries"
+              waveColor="#3B6FD4"
+              sub="Horizontal and vertical integration decisions — selective integration across technology waves"
+            />
+            <IntegrationStrategies />
+          </section>
+        </div>
+      )}
+
+      {activeTab === 'international' && (
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '40px' }}>
+          <section>
+            <SectionHeader
+              id="bartlett-ghoshal"
+              number="2.12"
+              title="Bartlett & Ghoshal IR Framework"
+              wave="Integration-Responsiveness"
+              waveColor="#2B8A5E"
+              sub="Global integration vs local responsiveness — transition from Global to Transnational strategy"
+            />
+            <BartlettGhoshal />
+          </section>
+
+          <section>
+            <SectionHeader
+              id="entry-modes"
+              number="2.13"
+              title="Entry Mode Analysis"
+              wave="Market Entry"
+              waveColor="#7B5EA7"
+              sub="Control–risk–commitment spectrum — different entry modes for each technology wave"
+            />
+            <EntryModeSpectrum />
           </section>
         </div>
       )}

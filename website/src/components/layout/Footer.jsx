@@ -5,7 +5,7 @@ export default function Footer() {
       borderTop: '1px solid #E5E5E0',
       marginTop: 'auto',
     }}>
-      <div style={{
+      <div className="footer-inner" style={{
         padding: '20px 48px',
         maxWidth: '1440px',
         margin: '0 auto',
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div style={{ display: 'flex', gap: '24px' }}>
+        <div className="footer-meta" style={{ display: 'flex', gap: '24px' }}>
           <div style={{ fontFamily: 'Outfit, system-ui, sans-serif', fontSize: '11px', color: '#999999' }}>
             Module: MN7002NI
           </div>

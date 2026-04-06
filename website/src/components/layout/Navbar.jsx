@@ -1,5 +1,4 @@
 import { NavLink, useLocation } from 'react-router-dom'
-import { useState } from 'react'
 
 const navItems = [
   { path: '/', label: 'Home' },
@@ -12,7 +11,7 @@ const navItems = [
   { path: '/references', label: 'References' },
 ]
 
-export default function Navbar() {
+export default function Navbar({ onMenuToggle, menuOpen }) {
   const location = useLocation()
 
   return (
@@ -33,7 +32,36 @@ export default function Navbar() {
         height: '52px',
         gap: '4px',
       }}>
-        <NavLink to="/" style={{ textDecoration: 'none', marginRight: '20px', flexShrink: 0 }}>
+        {/* Hamburger menu button */}
+        <button
+          className="mobile-menu-btn"
+          onClick={onMenuToggle}
+          style={{
+            display: 'none',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'transparent',
+            border: 'none',
+            cursor: 'pointer',
+            padding: '6px',
+            marginRight: '8px',
+          }}
+          aria-label="Toggle menu"
+        >
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+            {menuOpen ? (
+              <path d="M5 5L15 15M15 5L5 15" stroke="#1A1A1A" strokeWidth="1.5" strokeLinecap="round" />
+            ) : (
+              <>
+                <line x1="3" y1="5" x2="17" y2="5" stroke="#1A1A1A" strokeWidth="1.5" strokeLinecap="round" />
+                <line x1="3" y1="10" x2="17" y2="10" stroke="#1A1A1A" strokeWidth="1.5" strokeLinecap="round" />
+                <line x1="3" y1="15" x2="17" y2="15" stroke="#1A1A1A" strokeWidth="1.5" strokeLinecap="round" />
+              </>
+            )}
+          </svg>
+        </button>
+
+        <NavLink to="/" className="nav-brand" style={{ textDecoration: 'none', marginRight: '20px', flexShrink: 0 }}>
           <span style={{
             fontFamily: 'Newsreader, Georgia, serif',
             fontSize: '17px',
@@ -45,7 +73,7 @@ export default function Navbar() {
           </span>
         </NavLink>
 
-        <div style={{ display: 'flex', gap: '0', flex: 1, overflowX: 'auto' }}>
+        <div className="nav-links" style={{ display: 'flex', gap: '0', flex: 1, overflowX: 'auto' }}>
           {navItems.map(item => {
             const isActive = item.path === '/'
               ? location.pathname === '/'
@@ -73,7 +101,7 @@ export default function Navbar() {
           })}
         </div>
 
-        <div style={{
+        <div className="nav-cash-floor" style={{
           marginLeft: '8px',
           flexShrink: 0,
           fontFamily: 'IBM Plex Mono, monospace',

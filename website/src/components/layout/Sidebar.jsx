@@ -24,6 +24,13 @@ const taskLinks = [
       { label: "Porter's Five Forces", anchor: '#porters' },
       { label: 'Strategic Group', anchor: '#strategic-group' },
       { label: 'CSF Analysis', anchor: '#csf' },
+      { label: "Bowman's Clock", anchor: '#bowmans' },
+      { label: 'Ansoff Matrix', anchor: '#ansoff' },
+      { label: 'BCG Matrix', anchor: '#bcg' },
+      { label: 'Levels of Strategy', anchor: '#levels' },
+      { label: 'Integration', anchor: '#integration' },
+      { label: 'Bartlett & Ghoshal', anchor: '#bartlett-ghoshal' },
+      { label: 'Entry Modes', anchor: '#entry-modes' },
     ],
   },
   {
@@ -50,11 +57,11 @@ const taskLinks = [
   },
 ]
 
-export default function Sidebar() {
+export default function Sidebar({ className = '' }) {
   const location = useLocation()
 
   return (
-    <aside style={{
+    <aside className={`sidebar ${className}`} style={{
       width: '200px',
       flexShrink: 0,
       background: '#FFFFFF',

@@ -19,9 +19,9 @@ const taskCards = [
     number: '02',
     title: 'Internal & External Analysis',
     marks: '30 marks',
-    description: "VRIO, Value Chain, PESTLE, Porter's Five Forces, Strategic Group, CSF",
+    description: "VRIO, Value Chain, PESTLE, Porter's, Strategic Group, CSF, Bowman's, Ansoff, BCG, Bartlett & Ghoshal, Entry Modes",
     color: '#2B8A5E',
-    items: ['VRIO Matrix', 'Value Chain', 'PESTLE', "Porter's Five Forces", 'Strategic Group Map', 'CSF Gap Analysis'],
+    items: ['VRIO', 'Value Chain', 'PESTLE', "Porter's", 'Strategic Group', 'CSF', "Bowman's", 'Ansoff', 'BCG', 'B&G', 'Entry Modes'],
   },
   {
     path: '/task3',
@@ -58,7 +58,7 @@ const metrics = [
 
 export default function Home() {
   return (
-    <div style={{ padding: '48px 56px', maxWidth: '1440px', margin: '0 auto', width: '100%', animation: 'fadeInUp 0.3s ease' }}>
+    <div className="home-page" style={{ padding: '48px 56px', maxWidth: '1440px', margin: '0 auto', width: '100%', animation: 'fadeInUp 0.3s ease' }}>
       {/* Hero */}
       <div style={{ marginBottom: '48px' }}>
         <div style={{
@@ -106,7 +106,7 @@ export default function Home() {
         }}>
           Strategic Posture — Three Technology Waves
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
+        <div className="home-waves-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '12px' }}>
           {waveCards.map(w => (
             <div key={w.label} style={{
               background: '#FFFFFF',
@@ -148,7 +148,7 @@ export default function Home() {
       </div>
 
       {/* Key metrics */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '12px', marginBottom: '40px' }}>
+      <div className="home-metrics-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '12px', marginBottom: '40px' }}>
         {metrics.map(m => (
           <div key={m.label} style={{
             background: '#FFFFFF',
@@ -204,7 +204,7 @@ export default function Home() {
         }}>
           Assignment Tasks
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px' }}>
+        <div className="home-tasks-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '12px' }}>
           {taskCards.map(card => (
             <Link key={card.path} to={card.path} style={{ textDecoration: 'none' }}>
               <div

@@ -58,7 +58,7 @@ export default function PortersFiveForces() {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
+      <div className="framework-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
         {/* Radar chart */}
         <div>
           <ResponsiveContainer width="100%" height={260}>

@@ -177,7 +177,7 @@ export default function VRIOMatrix() {
 
       {/* Key findings */}
       {vrioAnalysis?.keyFindings && (
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginTop: '16px' }}>
+        <div className="framework-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px', marginTop: '16px' }}>
           <div style={{ background: '#F7F7F5', border: '1px solid #E5E5E0', borderLeft: '3px solid #2B8A5E', borderRadius: '4px', padding: '14px' }}>
             <div style={{ fontFamily: 'IBM Plex Mono, monospace', fontSize: '10px', color: '#2B8A5E', marginBottom: '8px', textTransform: 'uppercase' }}>Advantage Sources</div>
             {vrioAnalysis.keyFindings.advantageSources.map((f, i) => (

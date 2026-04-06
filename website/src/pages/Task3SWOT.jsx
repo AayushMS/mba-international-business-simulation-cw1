@@ -66,7 +66,7 @@ function ConnectionsPanel() {
         How strengths/weaknesses connect to opportunities/threats — strategic implications
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
+      <div className="framework-grid-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
         {connections.map((c, i) => (
           <div key={i} style={{
             background: '#F7F7F5',

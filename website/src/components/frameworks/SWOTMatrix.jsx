@@ -139,7 +139,7 @@ export default function SWOTMatrix() {
       </div>
 
       {/* Axis labels */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0', marginBottom: '0' }}>
+      <div className="framework-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0', marginBottom: '0' }}>
         <div style={{ textAlign: 'center', padding: '6px', background: '#F7F7F5', border: '1px solid #E5E5E0', borderRight: 'none', borderBottom: 'none', borderRadius: '4px 0 0 0' }}>
           <span style={{ fontFamily: 'IBM Plex Mono, monospace', fontSize: '10px', color: '#999999', textTransform: 'uppercase', letterSpacing: '0.08em' }}>
             Internal
@@ -153,7 +153,7 @@ export default function SWOTMatrix() {
       </div>
 
       {/* 2x2 Grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', border: '1px solid #E5E5E0', borderRadius: '0 0 8px 8px', overflow: 'hidden' }}>
+      <div className="framework-grid-2" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', border: '1px solid #E5E5E0', borderRadius: '0 0 8px 8px', overflow: 'hidden' }}>
         {Object.entries(QUADRANT_CONFIG).map(([key, config]) => {
           const items = filterItems(swotData[key] || [])
           return (

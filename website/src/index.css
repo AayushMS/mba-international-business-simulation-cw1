@@ -72,3 +72,166 @@ h1, h2, h3, h4, h5, h6 {
 .animate-fade-in-up {
   animation: fadeInUp 0.3s ease forwards;
 }
+
+/* ─── RESPONSIVE ──────────────────────────────────────────────────────── */
+
+/* Sidebar toggle */
+.sidebar {
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.sidebar-overlay {
+  display: none;
+}
+
+/* Mobile menu button - hidden by default */
+.mobile-menu-btn {
+  display: none !important;
+}
+
+/* Tablet: < 1024px — hide sidebar, full-width content */
+@media (max-width: 1024px) {
+  .sidebar {
+    position: fixed;
+    left: 0;
+    top: 52px;
+    z-index: 40;
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .sidebar.sidebar-open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .sidebar-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    top: 52px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 39;
+  }
+
+  .sidebar-overlay.sidebar-open {
+    display: block;
+  }
+
+  .mobile-menu-btn {
+    display: flex !important;
+  }
+}
+
+/* Tablet: < 900px — reduce padding */
+@media (max-width: 900px) {
+  /* All page content areas */
+  main > div {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Navbar */
+  header nav {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Mobile: < 768px — stacked layouts, smaller fonts */
+@media (max-width: 768px) {
+  /* Navbar */
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-brand {
+    font-size: 15px !important;
+  }
+
+  .nav-cash-floor {
+    font-size: 10px !important;
+  }
+
+  /* All page content areas */
+  main > div {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    padding-top: 24px !important;
+  }
+
+  /* Pages */
+  .home-page h1 {
+    font-size: 28px !important;
+  }
+
+  .home-waves-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .home-metrics-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .home-tasks-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .task2-page h1 {
+    font-size: 26px !important;
+  }
+
+  .task2-tabs {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .tab-sub {
+    display: none !important;
+  }
+
+  /* Framework component padding */
+  .framework-grid-2 > div,
+  .framework-grid-3 > div {
+    padding: 10px !important;
+  }
+
+  /* Footer */
+  .footer-inner {
+    padding: 16px !important;
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  .footer-meta {
+    flex-direction: column !important;
+    gap: 4px !important;
+  }
+}
+
+/* Framework component responsive overrides */
+@media (max-width: 900px) {
+  /* Force 2-col grids to 1-col */
+  .framework-grid-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Ansoff/BCG/BG matrix grids */
+  .matrix-grid-2x2 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (max-width: 640px) {
+  /* Force 3-col findings to 1-col */
+  .framework-grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Force market profiles to stack */
+  .market-profiles-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

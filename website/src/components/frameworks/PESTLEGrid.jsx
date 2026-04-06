@@ -76,7 +76,7 @@ export default function PESTLEGrid() {
       </div>
 
       {/* PESTLE cards grid */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
+      <div className="framework-grid-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '10px' }}>
         {filtered.map((item, i) => {
           const color = CATEGORY_COLORS[item.category] || '#555555'
           const waveColor = WAVE_COLORS[item.wave] || '#999999'
