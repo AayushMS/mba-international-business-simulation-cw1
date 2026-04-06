@@ -120,9 +120,19 @@ This SWOT synthesizes findings from ALL framework analyses in Task 2. Every poin
 - **Wave connection:** All waves — the cross-cutting constraint
 
 ## Internal-External Connections
-- S1 (dual-plant manufacturing) → O3 (Asian growth) — manufacturing strength enables capture of highest-growth market
-- S2 (4G cash engine) → T1 (margin compression) — cash strength being eroded by the very competition it must fund investment against
-- W1 (no 5G product) → O1 (5G infrastructure ready) — the gap between internal weakness and external opportunity is THE strategic crisis
-- W2 (4G revenue dependency) → T1 (post-DOJ pricing) — internal dependency on a revenue source under external threat
-- W4 (R&D not directed to 5G/AI) → T4 (competitors active in AI) — internal R&D underutilization while competitors advance
-- S3 (R&D infrastructure exists) → O2 (AI-device window open) — internal capability could seize external opportunity IF redirected now
+- S1 (dual-plant manufacturing) → O3 (Asian growth) — manufacturing strength enables capture of highest-growth market; Vietnam plant is the structural enabler
+- S2 (4G cash engine) → T1 (margin compression) — cash strength being eroded by the very competition it must fund investment against; the cash engine is simultaneously the most critical resource and the most threatened
+- W1 (no 5G product) ↔ O1 (5G infrastructure ready) — the gap between internal weakness and external opportunity is THE strategic crisis; every quarter of delay converts O1 from an opportunity to a missed window
+- W2 (4G revenue dependency) ↔ T1 (post-DOJ pricing) — internal dependency on a revenue source under external threat creates a compounding squeeze
+- W4 (R&D not directed to 5G/AI) ↔ T4 (competitors active in AI) — internal R&D underutilization while external competitors advance; inaction now = permanent follower status
+- S3 (R&D infrastructure exists) → O2 (AI-device window open) — internal capability could seize external opportunity IF redirected now; the infrastructure exists, the direction does not yet
+- W3 (Vietnam plant immaturity) ↔ O3 (Asian growth, 22-30%) — internal capacity limitation directly constrains ability to capture the highest-growth external market
+- S1 (dual-plant) ↔ T3 (Vietnam tariff risk) — the structure that enables global cost optimization is threatened by trade tensions; risk mitigation requires maintaining Atlanta for US market
+
+## Cross-Task Consistency Check
+This SWOT must be consistent with Task 4's recommendation ("Accelerated 5G Entry with Parallel AI R&D, Funded by Managed 4G Transition"):
+- The recommendation to license 5G for speed directly addresses W1 (no 5G product) seizing O1 (5G infrastructure ready) against T2 (competitor first-mover risk)
+- The AI R&D commitment addresses W4 (R&D misdirected) and S3 (R&D base exists) to capture O2 (AI window open) before T4 (competitor AI R&D) closes it
+- Managed 4G decline protects S2 (cash engine) while accepting T1 (margin compression) as a known trade-off
+- The $120M cash buffer objective (Task 1, Objective 4) directly mitigates T5 (cash floor breach risk)
+- **Any change to Task 4 recommendation must be reflected in the SWOT strategic implications**

@@ -6,8 +6,9 @@
 - Profitability: Strong legacy from cartel era, now under pressure from open competition
 
 ## Cash Position
-- Status: Healthy — sufficient for immediate strategic investment
+- Status: Healthy — sufficient for immediate strategic investment (case study text: "sufficient for immediate strategic investment, but simultaneous investment demands create significant competing pressures")
 - Constraint: **USD 90M minimum cash reserve floor** (MUST NOT breach)
+  - **IMPORTANT SOURCE NOTE:** The $90M floor is a simulation game parameter, not explicitly stated in the written case study text. The case text only confirms the cash position is "healthy" with "competing pressures." Use $90M when referencing the simulation/strategic planning context; acknowledge it comes from the game parameters.
 - Tension: Simultaneous investment demands from all three waves create significant competing pressures
 
 ## Market Share

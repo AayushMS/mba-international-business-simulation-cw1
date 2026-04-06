@@ -21,8 +21,8 @@
 ## Asia Plant: Vietnam
 
 ### Capacity
-- Growing facility
-- Cost: USD 3.3M per new line (higher per-line cost than Atlanta)
+- Growing facility (case study does not specify current number of production lines — unlike Atlanta's stated 12 lines)
+- Cost: USD 3.3M per new line (higher per-line cost than Atlanta; likely reflects newer construction + more advanced capability)
 
 ### Labour
 - Cost: ~USD 6/hour (lowest of all three regions)

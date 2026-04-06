@@ -62,3 +62,18 @@
 3. Investing in AI-device R&D now for 2027 market — delay = permanently following, not leading
 4. Expanding Asian production capacity (2-year lead time) — capacity committed now arrives at peak demand
 5. Maintaining financial discipline — simultaneous R&D, capacity, marketing creates cash flow pressure
+
+## Technology Generation Table (from case study Section 1.3)
+| Gen | Technology | Status in 2025 | Strategic Significance |
+|-----|-----------|----------------|----------------------|
+| Tech 1 | 4G LTE | Mature: full production | Feature level 6 (mid-to-premium). Cash engine. Eroding moat post-DOJ. |
+| Tech 2 | 5G Sub-6GHz | Surging: mainstream now | Critical near-term decision. 70%+ US urban coverage. Two routes: in-house R&D (slower, builds IP) or licensing (immediate, costly, no IP). |
+| Tech 3 | AI-Integrated Devices | Emerging: 2027 horizon | On-device AI chips. Apple/Samsung/Qualcomm active. Commercial 2027-28. R&D decisions in 2025 determine leader vs follower. |
+| Tech 4 | 6G | Research phase: 2030+ | Government-funded globally. 1 Tbps theoretical. Not commercially viable in planning horizon. Foundational R&D now builds 6G-era positioning. |
+
+**Feature rating scale (case study):** 1-3 = entry-level | 4-6 = mid-range | 7-9 = premium | 10 = flagship ultra-premium
+
+## Source Note
+Case study: MN7002NI_Question Paper_Case Study_Mobile Inc..docx.pdf (7 pages)
+Question Paper: MN7002NI_International Business Strategy with Simulation_SP26_Coursework1_1st Sit_QP.docx.pdf (8 pages)
+Module Leader: Ms. Stuti Pradhananga (Islington College)

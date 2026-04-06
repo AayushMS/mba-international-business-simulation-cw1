@@ -36,12 +36,21 @@
 - Tables, diagrams, and figures are highly effective in supporting text and presenting key messages
 - Comprehensive, error-free citations and reference list in Harvard style
 
+## Presentation Structure Requirements (from QP Section D)
+- Max 30 slides (hard limit — may not exceed)
+- Slides include: title page + agenda + executive summary + body (Tasks 1-4) + references + appendix (contribution log)
+- All group members listed with student IDs on title page
+- Harvard Referencing Format required throughout
+- Reading from phones/tablets/devices during presentation is NOT allowed
+- Q&A: Questions can be directed to ANY team member at random — all must have complete understanding
+
 ## Task-Specific Scoring Details
 
 ### Executive Summary (5 marks)
-- Must capture: (a) core strategic direction, (b) most critical analysis findings, (c) synthesised SWOT position, (d) recommended strategic choice
+- Must capture: (a) core strategic direction in context of three-wave structure, (b) most critical internal/external findings including capability gaps, (c) synthesised SWOT position and primary strategic implication, (d) recommended strategic choice including how Mobilé manages 4G, 5G, and AI waves simultaneously
 - A board member should be able to read this independently
 - Marks for precision and selectivity, NOT length or exhaustive listing
+- NOT a repetition of task-by-task outputs — it is the confident conclusion a senior decision-maker needs to act
 
 ### Strategy Process (15 marks)
 Assessed across four elements:

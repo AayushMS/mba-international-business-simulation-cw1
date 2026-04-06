@@ -48,10 +48,13 @@ The case study fundamentally asks: **which strategic group should Mobilé Inc. t
 **Recommended trajectory:** Move from "Global 4G Incumbent" → "5G First-Mover" while investing in AI R&D to eventually join "Technology Leader" group.
 
 This requires:
-1. Rapid 5G launch (closing the critical competitive gap)
-2. Simultaneous AI R&D investment (securing future position)
-3. Managed 4G decline (extracting cash while defending share)
+1. Rapid 5G launch (closing the critical competitive gap) — closing the mobility gap to Group A before it forms a permanent barrier
+2. Simultaneous AI R&D investment (securing future position) — seeding a position in Group C while it is still accessible
+3. Managed 4G decline (extracting cash while defending share) — funding the transition without collapsing back to Group B
+
+## Why This Framework is Valuable for Mobilé Specifically
+Strategic Group Analysis reveals something PESTLE and Porter's Five Forces miss: **the window for changing strategic groups is time-limited**. Once a competitor establishes 5G brand leadership (Group A), the mobility barriers — carrier partnerships, consumer brand loyalty, first-mover pricing power — become expensive to overcome. The same is true for AI R&D (Group C) — R&D talent and chip IP are scarce resources that early movers acquire first. This makes the timing of group migration, not just the direction, strategically critical.
 
 ## SWOT Feed
-- **Opportunities:** No firm has yet established permanent 5G brand leadership — strategic group positions are still fluid
-- **Threats:** If competitors reach "5G First-Mover" group first, mobility barriers make catching up expensive and slow
+- **Opportunities:** No firm has yet established permanent 5G brand leadership — strategic group positions are still fluid (Groups A, C, D all have open positions)
+- **Threats:** If competitors reach "5G First-Mover" group first, mobility barriers make catching up expensive and slow; every month of delay increases the cost of group migration

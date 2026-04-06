@@ -67,6 +67,12 @@ Porter's Five Forces assesses the structural attractiveness and competitive inte
 - **Critical force:** Competitive rivalry dominates all strategic decisions
 - **Window of opportunity:** 5G first-mover advantage is the primary mechanism for improving structural position
 
+## Framework-Specific Insight for Mobilé
+The QP marking criteria explicitly identifies "structural dynamics of competing against three equally-sized international rivals" as a key external force. Porter's Five Forces captures this through the Competitive Rivalry force — the four-firm oligopoly at perfect symmetry (25% share each) is structurally unusual and analytically important:
+- Symmetric oligopoly = no natural market leader → race to be first to differentiate (5G, AI)
+- All four firms face identical cost structures, market presence, and technology gaps → first-mover advantage becomes the ONLY differentiator
+- This symmetry makes the 5G first-mover window critically valuable — whoever breaks from the pack first gains a structural advantage the others cannot easily close
+
 ## SWOT Feed
-- **Opportunities:** Low new entrant threat means existing players can capture growth; 5G differentiation can reduce buyer power
-- **Threats:** Intensifying rivalry (post-DOJ), rising buyer power from price transparency, potential supplier lock-in if licensing 5G technology
+- **Opportunities:** Low new entrant threat means existing players can capture growth; 5G differentiation can reduce buyer power; symmetric rivalry means first-mover gains are especially durable
+- **Threats:** Intensifying rivalry (post-DOJ), rising buyer power from price transparency, potential supplier lock-in if licensing 5G technology; symmetric structure means any competitor's 5G launch immediately erodes Mobilé's position

@@ -68,6 +68,16 @@ Porter's Value Chain identifies which primary and support activities create valu
 - **Financial management:** $90M cash floor constraint requires sophisticated capital allocation
 - **Strategic planning:** The core challenge of the case — holding three horizons in view simultaneously
 
+## Critical Value Chain Bottleneck: The 2-Year Production Lag
+The most strategically significant Value Chain constraint is the **2-year lead time for new production capacity**. This creates a hard planning constraint:
+- Capacity committed in 2025 becomes operational in 2027
+- 2027 is precisely when 5G demand is expected to peak AND AI-devices begin commercial availability
+- This means: **production capacity decisions cannot be deferred** — they must be made under demand uncertainty
+- The JIT system compounds this: underproduction means permanently lost sales (cannot recover)
+- Contract manufacturing (15-20% premium, no learning curve) is the only bridge — but it cannot be a long-term strategy
+
+**Implication for Task 4 recommendation:** Vietnam capacity expansion must be committed now (2025) even though the 5G product line is not yet launched. This is a confidence bet on 5G demand materialising — but it is a non-deferrable decision.
+
 ## SWOT Feed
 - **Strengths:** Dual-plant manufacturing structure, JIT efficiency, established global logistics, existing R&D foundation, multi-market management experience
-- **Weaknesses:** R&D not yet applied to 5G/AI, no 5G product for marketing, Vietnam plant immaturity, JIT risk in uncertain new product launches
+- **Weaknesses:** R&D not yet applied to 5G/AI, no 5G product for marketing, Vietnam plant immaturity, JIT risk in uncertain new product launches, 2-year capacity lag creates irrevocable commitment under uncertainty

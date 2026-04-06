@@ -3,6 +3,8 @@
 ## Task Requirement
 Define where Mobilé Inc. is going and what it stands for. Develop a vision, mission, strategic goals, and SMART objectives grounded in the three-wave situation.
 
+**Framework explicitly required by QP marking criteria:** McKinsey Three Horizons framework (the QP specifically names it: "Mc Kinsey three horizon framework"). The three waves map directly: H1=4G (defend/extract), H2=5G (emerging, invest now), H3=AI-devices (future, early R&D). All vision/mission/goals/objectives must be structured through this lens.
+
 ## Vision Statement
 "To lead the global smartphone industry through the 4G-to-5G transition and into the AI-device era by 2028, delivering differentiated technology across the US, European, and Asian markets while sustaining financial resilience through disciplined multi-horizon resource allocation."
 

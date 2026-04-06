@@ -48,9 +48,9 @@
 
 ### Market Characteristics
 - World's largest volume market
-- Users: ~1B (China alone has ~1B)
-- China: 65% 5G penetration — premium-competitive
-- India and SE Asia: Mass-market, price-sensitive, predominantly 4G
+- China: ~1B users, 65% 5G penetration — premium-competitive (the ~1B figure is China-specific per case study)
+- India and SE Asia: Mass-market, price-sensitive, predominantly 4G (user count not specified in case)
+- India and SE Asia: Mass-market, price-sensitive, predominantly 4G (user count not specified in case)
 - Vietnam plant provides structural logistics advantage
 
 ### Competitive Dynamics in 2025

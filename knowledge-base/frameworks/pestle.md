@@ -32,11 +32,11 @@ PESTLE maps the macro-environmental forces reshaping Mobilé Inc.'s competitive 
 |--------|----------------------|---------------|
 | 38% US consumers already own 5G device | Demonstrates demand — Mobilé is missing an existing market | Wave 2 (5G) |
 | 28% EU consumers own 5G device | European demand slightly behind US but growing | Wave 2 (5G) |
-| Consumer appetite for AI-powered use cases accelerating | Cloud gaming, AR, language translation, remote work driving 5G adoption beyond forecasts | Waves 2 & 3 |
-| Sustainability consciousness (Europe) | EU consumers increasingly factor sustainability into purchases | Waves 1 & 2 |
-| Asian market bifurcation | Premium-conscious urban vs price-sensitive mass market | Waves 1 & 2 |
+| Consumer appetite for AI-powered use cases accelerating beyond forecasts | Cloud gaming, AR navigation, real-time language translation, seamless remote work — carrier subsidies amplifying adoption speed | Waves 2 & 3 |
+| Sustainability consciousness (Europe) | EU consumers increasingly factor repairability and e-waste credentials into purchasing decisions | Waves 1 & 2 |
+| Asian market bifurcation | Urban China/Japan/Korea: premium 5G-conscious. India/SE Asia: price-sensitive, predominantly 4G. Both segments require separate positioning. | Waves 1 & 2 |
 
-**Strategic implication:** Consumer demand for 5G is proven and growing — Mobilé's absence is increasingly costly. European sustainability credentials offer differentiation opportunity.
+**Strategic implication:** Consumer demand for 5G is proven, growing, and being amplified by AI-powered use cases *beyond initial forecasts* — the case study wording is "beyond initial forecasts" which signals the market is moving faster than planned. Mobilé's absence is increasingly costly with every quarter. European sustainability credentials offer real differentiation opportunity if embedded in product design.
 
 ### Technological
 | Factor | Impact on Mobilé Inc. | Wave Affected |
