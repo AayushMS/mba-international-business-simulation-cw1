@@ -125,7 +125,7 @@ export default function References() {
         lineHeight: 1.6,
       }}>
         <span style={{ color: '#555555' }}>Harvard format guidance: </span>
-        Author, A. (Year) <em>Title</em>. Edition. Place of publication: Publisher. — All [CONTENT] placeholders to be replaced by content-writer with validated Harvard citations.
+        Author, A. (Year) <em>Title</em>. Edition. Place of publication: Publisher.
       </div>
     </div>
   )

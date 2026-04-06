@@ -124,7 +124,7 @@ export default function FinancialDashboard() {
             </AreaChart>
           </ResponsiveContainer>
           <div style={{ fontFamily: 'IBM Plex Mono, monospace', fontSize: '10px', color: '#999999', textAlign: 'center', marginTop: '8px' }}>
-            [CONTENT: Replace with actual financial projections from case study]
+            Projected revenue trajectory: 4G-funded, 5G-accelerated growth path. Cash floor $90M maintained throughout.
           </div>
         </div>
 

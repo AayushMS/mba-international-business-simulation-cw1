@@ -131,8 +131,7 @@ export default function StrategicGroupMap() {
         borderRadius: '6px',
         fontFamily: 'Outfit, sans-serif', fontSize: '12px', color: '#555555',
       }}>
-        <span style={{ fontFamily: 'IBM Plex Mono, monospace', fontSize: '10px', color: '#999999' }}>NOTE: </span>
-        [CONTENT: Insert strategic group interpretation — where Mobilé sits relative to competitors and what this means for competitive strategy]
+        All four firms currently cluster in the same strategic group ("Global 4G Incumbents") with 25% share each. The migration to distinct groups — 5G First-Movers, 4G Defenders, Technology Leaders, Fast Followers — has not yet crystallised. Speed of 5G entry determines whether Mobilé captures premium positioning or enters as a discount follower. Mobility barriers form quickly once positions are established.
       </div>
     </div>
   )

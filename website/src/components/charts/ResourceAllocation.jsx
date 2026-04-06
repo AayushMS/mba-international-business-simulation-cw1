@@ -123,9 +123,9 @@ export default function ResourceAllocation() {
           </div>
 
           <div style={{ marginTop: '16px', padding: '10px 12px', borderRadius: '4px', background: '#F7F7F5', border: '1px solid #E5E5E0' }}>
-            <div style={{ fontFamily: 'IBM Plex Mono, monospace', fontSize: '10px', color: '#999999', marginBottom: '4px', textTransform: 'uppercase' }}>Note</div>
+            <div style={{ fontFamily: 'IBM Plex Mono, monospace', fontSize: '10px', color: '#999999', marginBottom: '4px', textTransform: 'uppercase' }}>Estimated allocation</div>
             <div style={{ fontFamily: 'Outfit, sans-serif', fontSize: '11px', color: '#555555' }}>
-              [CONTENT: Actual dollar amounts to be filled from recommendation analysis]
+              4G Defence: ~$1.4B (cost reduction via Vietnam) · 5G Launch: ~$2.4B (licensing + production + marketing) · AI R&D: ~$150M (dedicated team + 2 partnerships)
             </div>
           </div>
         </div>

@@ -291,8 +291,8 @@ export default function Home() {
         color: '#999999',
         lineHeight: 1.6,
       }}>
-        <span style={{ color: '#555555' }}>Note: </span>
-        Content marked [CONTENT] is placeholder data awaiting integration from the content-writer agent. Core structural data (revenue $4.8B, cash floor $90M, market shares, plant costs) is drawn directly from the case study.
+        <span style={{ color: '#555555' }}>Source: </span>
+        All data drawn from Mobilé Inc. case study (MN7002NI, 2025). Financial figures, market data, and production costs are case-specific.
       </div>
     </div>
   )

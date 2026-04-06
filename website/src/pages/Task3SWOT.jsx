@@ -25,11 +25,11 @@ function ConnectionsPanel() {
       implication: 'Critical vulnerability — permanent market share loss without urgent action',
     },
     {
-      from: 'Strength: [CONTENT]',
-      to: 'Opportunity: AI-device window',
+      from: 'Strength: Existing R&D infrastructure',
+      to: 'Opportunity: AI-device window (2027–28)',
       type: 'SO',
       color: '#2B8A5E',
-      implication: '[CONTENT: strategic implication]',
+      implication: 'R&D base can be redirected toward AI if $150M commitment is made now — existing capability accelerates entry',
     },
     {
       from: 'Weakness: Cash at $90M floor',

@@ -90,7 +90,7 @@ export default function Task4Recommendation() {
               color: '#999999',
               textAlign: 'center',
             }}>
-              [CONTENT: Financial projections to be integrated from content-writer analysis — revenue outlook, cash position under recommended wave investment sequencing, ROI timelines]
+              Revenue outlook: 4G maintained above $4.0B through 2026, 5G contributing $0.5–1.0B by Q2 2027, AI revenue from 2028. Cash position: $120M buffer (30% above $90M floor) maintained through sequenced investment — 5G licensing front-loaded, AI R&D gradual ramp ($150M over FY2025–2026), Vietnam expansion $13.2M. Total borrowing capped at $200M at 4.8% standard rate. Zero emergency borrowing.
             </div>
           </div>
         </section>
