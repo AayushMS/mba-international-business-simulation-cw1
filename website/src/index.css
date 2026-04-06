@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300;1,6..72,400&family=Outfit:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-wave-4g: #3B6FD4;
+  --color-wave-5g: #2B8A5E;
+  --color-wave-ai: #7B5EA7;
+
+  --color-canvas: #F7F7F5;
+  --color-surface: #FFFFFF;
+  --color-surface-hover: #F0F0ED;
+  --color-border: #E5E5E0;
+  --color-border-strong: #D0D0C8;
+
+  --color-text-primary: #1A1A1A;
+  --color-text-secondary: #555555;
+  --color-text-muted: #999999;
+
+  --color-accent-urgent: #C0392B;
+
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-display: 'Newsreader', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', monospace;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #F7F7F5;
+  color: #1A1A1A;
+  font-family: 'Outfit', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Newsreader', Georgia, serif;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #F7F7F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #D0D0C8;
+  border-radius: 2px;
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.3s ease forwards;
+}
