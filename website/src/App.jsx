@@ -9,6 +9,7 @@ import Task3SWOT from './pages/Task3SWOT'
 import Task4Recommendation from './pages/Task4Recommendation'
 import TeamPage from './pages/TeamPage'
 import References from './pages/References'
+import QuickOverview from './pages/QuickOverview'
 
 function Layout() {
   const location = useLocation()
@@ -28,6 +29,7 @@ function Layout() {
             <Route path="/task4" element={<Task4Recommendation />} />
             <Route path="/team" element={<TeamPage />} />
             <Route path="/references" element={<References />} />
+            <Route path="/overview" element={<QuickOverview />} />
           </Routes>
         </main>
       </div>
