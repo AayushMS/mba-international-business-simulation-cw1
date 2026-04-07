@@ -1,1 +1,9 @@
 .vercel
+__pycache__/
+*TEMP_MPY_wvf_snd*
+*.pyc
+*:Zone.Identifier
+
+# Large output videos (>100MB GitHub limit) — regenerate from segments
+video-production/output/mobile_inc_presentation.mp4
+video-production-v3/output/mobile_inc_v3.mp4
