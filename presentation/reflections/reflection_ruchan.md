@@ -1,0 +1,33 @@
+# Individual Reflection - Ruchan Jung Sijapati
+**Student ID:** NP01MB7A250143 / 20048645
+**Role:** Internal Analyst - Task 2a (VRIO Analysis + Value Chain Analysis)
+
+---
+
+When we first split up the work for this project, I thought being the synthesis person would be the easier job. Everyone else had to do the heavy analytical lifting, and I just had to pull it together. I was wrong about that. Pulling things together turned out to be its own kind of hard, and honestly, the part of this project I am most proud of is also the part that stressed me out the most.
+
+The first few weeks felt strange because I could not really produce anything yet. Bishwesh and Gaurav were already building out the vision and objectives for Task 1, Bishan was deep in VRIO and Value Chain, and Aayush was running through PESTLE and Porter's. I was reading the case study and sitting in on group calls, but my deliverables depended on their outputs. I used that time to sketch out the SWOT structure, but it felt unproductive compared to what everyone else was doing.
+
+When the Task 2 findings started coming in, that changed fast. Bishan's VRIO showed that Mobilé holds no sustained competitive advantages. Not one. Everything is either temporary or parity. I thought that was too negative at first, but he backed every assessment with Barney's criteria and I could not find a flaw in it. Aayush's Porter's Five Forces highlighted that competitive rivalry was high and getting worse after the DOJ intervention broke up the tacit pricing. Between the two of them, the picture was clear: Mobilé has decent resources but no durable edge, in an industry that just got much more aggressive. I could not have written the SWOT without Bishan and Aayush's careful framework analysis. They gave me the raw material, and the quality of their work made the synthesis possible.
+
+The SWOT itself was harder than I expected because every point had to trace directly to a Task 2 finding. No new information allowed. I could not just add a generic strength like "strong brand" without pointing to where in the VRIO or Value Chain that was established. The connections between internal and external findings were where it got interesting. Mobilé's dual-plant manufacturing links to Asia's growth, but the Vietnam plant is immature and faces tariff risk. Those cross-links turned the matrix from a list into something actually useful for making decisions.
+
+Task 4, the strategic recommendation, was the hardest thing I have done in this programme. My first draft was basically a summary: "Mobilé should pursue 5G, invest in AI, and defend 4G." Shaswat read it and said, fairly, that it described the problem but did not make a choice. He was right. He kept me honest on the financial constraints throughout, always coming back to the $90M cash floor and asking whether we could actually afford what I was proposing. That kind of pushback made the recommendation better.
+
+The tension I struggled with most was between being comprehensive and being decisive. A recommendation that tries to say everything ends up saying nothing. Professor Pradhananga's Week 5 lecture on business strategy helped me here. She discussed Porter's idea that strategy is about choosing what not to do, and that stuck with me. For Mobilé, the "what not to do" decisions mattered just as much: do not build 5G in-house if it means missing the window, do not defend 4G margins at the expense of the transition, do not delay AI R&D until 5G revenue comes in. Stating those sacrifices honestly made the recommendation feel more genuine.
+
+Professor Pradhananga's Week 7 lecture on global and collaborative strategies also shaped how I thought about market differentiation. The recommendation could not be one-size-fits-all. What works in the US (brand positioning, premium 5G) does not work the same way in Asia's bifurcated market. Bishwesh's vision for the company gave us the direction, and the market-level specificity came from recognising that strategic intent has to translate differently across regions.
+
+Johnson et al. (2017) gave me the evaluation framework I relied on most: suitability, acceptability, and feasibility. Suitability was strong because the strategy directly addresses the SWOT findings. Acceptability required honesty about trade-offs, like dependence on a licensing partner. Feasibility was the tightest constraint, and that is where Shaswat's financial analysis was essential.
+
+Teece et al. (1997) on dynamic capabilities helped me see why the recommendation had to go beyond fixing the 5G gap. The point is not only to launch a handset but to build the capability to sense and respond to technology shifts, which matters even more when Wave 3 arrives. Doz and Kosonen (2010) reinforced this with their concept of strategic agility. Mobilé's situation is essentially a test of whether it can transform proactively rather than reactively.
+
+Looking back, the biggest lesson is about how analysis and decision-making relate to each other. Analysis gives you clarity, but it does not make the decision for you. At some point you have to commit knowing the information is incomplete. That gap between knowing and choosing is where strategy actually lives. I would not say I am good at it yet, but I understand it now in a way I did not before. The team made this possible. Bishwesh's vision gave us direction, Bishan and Aayush gave us evidence, Gaurav shaped the early framing, and Shaswat stress-tested every financial assumption. My job was to take all of that and make a decision. I am glad we did it together.
+
+**References**
+
+Doz, Y.L. and Kosonen, M. (2010) 'Embedding strategic agility: A leadership agenda for accelerating business model renewal', *Long Range Planning*, 43(2-3), pp. 370-382.
+
+Johnson, G., Whittington, R., Scholes, K., Angwin, D. and Regnér, P. (2017) *Exploring Strategy: Text and Cases*. 11th edn. Harlow: Pearson.
+
+Teece, D.J., Pisano, G. and Shuen, A. (1997) 'Dynamic capabilities and strategic management', *Strategic Management Journal*, 18(7), pp. 509-533.

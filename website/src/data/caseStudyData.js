@@ -408,12 +408,12 @@ export const financialMetrics = {
 // ─── TEAM ─────────────────────────────────────────────────────────────────────
 
 export const teamMembers = [
-  { id: 1, name: 'Bishwesh Ram Shrestha', collegeId: 'np01mb7a250082', universityId: '25030247', role: 'Strategy Lead', tasks: 'Task 1 + Executive Summary', presentationRole: 'Exec Summary + Vision/Mission (3 min)', contribution: 'Led Task 1 strategic direction; authored Vision, Mission, and Executive Summary' },
+  { id: 1, name: 'Aayush Man Singh', collegeId: 'np01mb7a250043', universityId: '18029779', role: 'Strategy Lead', tasks: 'Task 1 + Executive Summary', presentationRole: 'Exec Summary + Vision/Mission (3 min)', contribution: 'Led Task 1 strategic direction; authored Vision, Mission, and Executive Summary' },
   { id: 2, name: 'Gaurav Dangol', collegeId: 'np01mb7a250083', universityId: '18029811', role: 'Strategy Support', tasks: 'Task 1 (Goals/SMART)', presentationRole: 'Strategic Goals + SMART (2 min)', contribution: 'Developed five Strategic Goals and five SMART Objectives with case-specific evidence' },
-  { id: 3, name: 'Bishan Subedi', collegeId: 'np01mb7a250010', universityId: '25030193', role: 'Internal Analyst', tasks: 'Task 2a (Internal)', presentationRole: 'VRIO + Value Chain (3 min)', contribution: 'Conducted VRIO/RBV analysis and Value Chain analysis of Mobilé\'s internal capabilities' },
-  { id: 4, name: 'Aayush Man Singh', collegeId: 'np01mb7a250043', universityId: '18029779', role: 'External Analyst', tasks: 'Task 2b (External)', presentationRole: 'PESTLE + Porter\'s (3 min)', contribution: 'Conducted PESTLE, Porter\'s Five Forces, Strategic Group, and CSF analyses' },
-  { id: 5, name: 'Ruchan Jung Sijapati', collegeId: 'NP01MB7A250143', universityId: '20048645', role: 'Synthesis Lead', tasks: 'Task 3 + Task 4', presentationRole: 'SWOT + Recommendation (3 min)', contribution: 'Synthesised SWOT from Task 2 evidence; developed Strategic Recommendation' },
-  { id: 6, name: 'Shaswat Nibha Maharjan', collegeId: 'np01mb7a250162', universityId: '—', role: 'Recommendation Support', tasks: 'Task 4 (Trade-offs)', presentationRole: 'Risk/constraints + Closing (1 min)', contribution: 'Developed risk register, trade-off analysis, and financial constraint management' },
+  { id: 3, name: 'Ruchan Jung Sijapati', collegeId: 'NP01MB7A250143', universityId: '20048645', role: 'Internal Analyst', tasks: 'Task 2a (Internal)', presentationRole: 'VRIO + Value Chain (3 min)', contribution: 'Conducted VRIO/RBV analysis and Value Chain analysis of Mobilé\'s internal capabilities' },
+  { id: 4, name: 'Shaswat Nibha Maharjan', collegeId: 'np01mb7a250162', universityId: '—', role: 'External Analyst', tasks: 'Task 2b (External)', presentationRole: 'PESTLE + Porter\'s (3 min)', contribution: 'Conducted PESTLE, Porter\'s Five Forces, Strategic Group, and CSF analyses' },
+  { id: 5, name: 'Bishwesh Ram Shrestha', collegeId: 'np01mb7a250082', universityId: '25030247', role: 'Synthesis Lead', tasks: 'Task 3 + Task 4', presentationRole: 'SWOT + Recommendation (3 min)', contribution: 'Synthesised SWOT from Task 2 evidence; developed Strategic Recommendation' },
+  { id: 6, name: 'Bishan Subedi', collegeId: 'np01mb7a250010', universityId: '25030193', role: 'Recommendation Support', tasks: 'Task 4 (Trade-offs)', presentationRole: 'Risk/constraints + Closing (1 min)', contribution: 'Developed risk register, trade-off analysis, and financial constraint management' },
 ]
 
 // ─── REFERENCES ───────────────────────────────────────────────────────────────
